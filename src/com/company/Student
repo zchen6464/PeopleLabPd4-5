@@ -1,0 +1,22 @@
+package com.company;
+
+public class Student extends Person
+{
+    private double GPA;
+
+    public Student()
+    {
+        super("Student");
+        this.GPA = GPA;
+    }
+
+    public int getGPA()
+    {
+        return GPA;
+    }
+    public String toString()
+    {
+        return this.firstName;
+        return this.familyName;
+    }
+}
